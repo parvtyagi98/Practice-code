@@ -1,0 +1,24 @@
+print("Welcome to the game:")
+# the outputs are
+x = ["snake", "water", "gun"]
+y = input("Press S for snake, W for water, G for gun")
+z = random.choice(x)
+
+if y == "S":
+    print("You have choosen snake")
+elif y == "W":
+    print("You have choosen water")
+else:
+    print("You have choosen Gun")
+
+if y == "S" and z=="snake":
+    print("You won")
+
+elif y=="W" and z=="water":
+    print("You won")
+
+elif y =="G" and z =="gun":
+    print("You won ")
+else:
+    print("You lost")
+
